@@ -1,0 +1,54 @@
+.App {
+  position: relative;
+  min-height: 100vh;
+}
+.logo{
+  height: 30px;
+  width: 100px;
+  margin-left: 120px;
+}
+
+.navbaritems{
+  margin-left: 100px;
+  padding-left: 60px;
+}
+
+.navbaritems ul li{
+  padding-left: 80px;
+}
+
+.backimg{
+  /* margin-bottom: 50px; */
+  margin-left: 250px;
+}
+.footerlist{
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  padding: 20px 40px 40px 60px ;
+  
+}
+.footerlist div :hover{
+  color: rgb(199, 11, 11);
+  transition: 0.5s ease-in-out;
+  /* background-color: rgb(196, 28, 28); */
+}
+.wholefooter{
+  background-color: rgb(251, 255, 251);
+}
+.footerlist div{
+  margin-right: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  
+}
+.cpyrt{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.quicklinks{
+  margin-left: 50px;
+}
